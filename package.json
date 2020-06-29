@@ -1,0 +1,30 @@
+{
+  "name": "howlbrew",
+  "version": "1.0.0",
+  "description": "HOWL Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./node_modules/.bin/http-server ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artz/howlbrew.git"
+  },
+  "keywords": [
+    "howl",
+    "homebrewers",
+    "of",
+    "western",
+    "loudoun"
+  ],
+  "author": "Dave Artz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artz/howlbrew/issues"
+  },
+  "homepage": "https://github.com/artz/howlbrew#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
